@@ -8,6 +8,6 @@ its just a page with its statistics and other things
 its mainly took care of only theme and design wise and the  learning the web development stuff...
 
 
-
+VISIT THE SITE:- https://baymaxit.netlify.app/
 
 i hope u people like it :) **
