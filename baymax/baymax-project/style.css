@@ -1,0 +1,710 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box
+}
+
+a {
+    color: rgb(234, 221, 221);
+}
+
+header {
+    display: flex;
+    background-color: rgba(104, 72, 117, 0.856);
+    color: rgb(243, 230, 230);
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.logo {
+    border-style: solid;
+    border-color: rgba(104, 72, 117, 0.856);
+    border-radius: 6%;
+}
+
+main {
+    background-image: url('pic1.jpg ');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    color: rgb(254, 254, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    padding-top: 15%;
+
+
+
+}
+
+
+
+h1 {
+    font-size: 100px;
+}
+
+nav {
+    display: flex;
+    font-size: 25px;
+    gap: 30px;
+    color: rgb(0, 0, 0);
+    padding-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    scale: 1.3;
+    color: rgb(22, 35, 37);
+}
+
+.bay {
+    font-size: 20px;
+    color: #e63b3b;
+    display: flex;
+    padding: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.one {
+    border-right: 2px transparent;
+    border-left: 2px transparent;
+    padding: 0px 10px;
+}
+
+.one2 {
+    border-right: 2px transparent;
+    border-left: 2px transparent;
+    padding: 0px 10px;
+}
+
+.btn1 {
+    margin: 90px;
+    color: rgb(245, 68, 68);
+    background: transparent;
+    border-color: rgb(238, 238, 238);
+    border-width: 5px;
+    border-radius: 5%;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2px;
+    width: 15%;
+    height: 6%;
+}
+
+
+
+
+.btn1 a {
+    text-decoration: none;
+}
+
+button {
+    margin: 60px;
+    color: rgb(190, 118, 23);
+    background: chocolate;
+    border-color: blue;
+    padding: 3px;
+    width: 15%;
+}
+
+.container {
+        background-color: rgb(186, 150, 216);
+        background-size: auto;
+        display: flex;
+        color: rgb(185, 48, 48);
+        flex-direction: column;
+        align-items: center;
+        justify-content: first baseline;
+        padding: 4%;
+        height: 150vh;
+        
+
+}
+
+.container h4 {
+    color: rgb(140, 14, 224);
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h4 {
+    color: rgb(157, 14, 224);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.page {
+    font-size: 30px;
+}
+
+.profile {
+    justify-content: baseline;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.profile p1 {
+    color: black;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+
+.row p {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.column1,
+.column2 {
+    background-color: rgb(207, 180, 233);
+    height: 500px;
+    width: 300px;
+    margin: 2px;
+    color: black;
+    padding: 40px;
+    font-size: large;
+
+}
+
+.detail {
+    padding: 20px;
+}
+
+.skill {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    border-radius: 25px;
+
+}
+
+.bar {
+    background-color: rgb(140, 92, 194);
+    color: #ffffff;
+    padding: 0.5%;
+    text-align: right;
+    font-size: 13px;
+    border-radius: 25px;
+}
+
+.one {
+    width: 70%;
+}
+
+.two {
+    width: 50%;
+}
+
+.three {
+    width: 90%;
+}
+
+.four {
+    width: 70%;
+}
+
+
+.v {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.v a {
+    text-decoration: none;
+    color: #97266ca8;
+}
+
+.v1:hover {
+    background-color: #7d538d;
+    cursor: pointer;
+}
+
+.v2:hover {
+    background-color: #7d538d;
+    cursor: pointer;
+}
+
+.v1 {
+    color: rgb(245, 68, 68);
+    background: transparent;
+    border-color: rgb(238, 238, 238);
+    border-width: 5px;
+    border-radius: 5%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 10px;
+    width: 250px;
+    height: 16%;
+
+}
+
+.v2 {
+    color: rgb(245, 68, 68);
+    background: transparent;
+    border-color: rgb(238, 238, 238);
+    border-width: 5px;
+    border-radius: 5%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    width: 50%;
+    height: 16%;
+}
+
+.resume {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(207, 180, 233), rgb(189, 146, 206));
+    background-size: auto;
+    height: 210vh;
+    padding: 4%;
+    font-size: larger;
+
+
+}
+
+.resume h3 {
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.resume p {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.worka,
+.workb {
+    display: grid;
+    grid-template-columns: 1fr 0fr 3fr;
+    gap: 3px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px;
+
+}
+
+.work1,
+.work2,
+.work3 {
+
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.work1,
+.work3 {
+    color: #f7f8f1;
+    font-size: 20px;
+}
+
+.work2 {
+    font-size: 40px;
+    color: #f3eeee8f;
+}
+
+.z-ind {
+
+    background-color: rgba(112, 39, 160, 0.37);
+    border-radius: 20%;
+    padding: 10px;
+}
+
+.portofolio {
+    background-image: linear-gradient(rgb(189, 146, 206), pink);
+    background-size: auto;
+    display: flex;
+    color: rgb(185, 48, 48);
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    padding: 4%;
+    height: 150vh;
+}
+
+.portti p {
+    align-items: center;
+    color: #1a1818;
+    padding-bottom: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.portti h4 {
+    padding-left: 35%;
+    padding-bottom: 15px;
+}
+
+.portti h3 {
+    padding-left: 35%;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.portti p {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.poster {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    gap: 10px;
+    padding-right: 780px;
+}
+
+.poster img {
+    width: 190px;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 5px;
+
+
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    gap: 10px;
+}
+
+.signsec {
+    background-color: pink;
+    background-size: auto;
+    display: flex;
+    color: rgb(185, 48, 48);
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    padding: 0%;
+    height: 50vh;
+
+}
+
+.signsec h4 {
+    font-size: 52px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.signsec h3 {
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(68, 25, 102);
+    padding-bottom: 10px;
+
+}
+
+.signsec p {
+    color: rgb(253, 54, 170);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signbtn {
+    margin: 90px;
+    background: transparent;
+    border-color: rgb(204, 14, 195);
+    border-width: 5px;
+    border-radius: 5%;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200px;
+    height: 30px;
+}
+
+.signbtn a {
+    text-decoration: none;
+    color: rgb(204, 14, 195);
+}
+
+.signbtn :hover {
+    background-color: rgb(243, 151, 167);
+    cursor: pointer;
+}
+
+.Service h4 {
+    font-size: 52px;
+    color: rgb(112, 38, 172);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right: 4%;
+}
+
+.servvi {
+    font-size: 25px;
+    display: flex;
+    padding: 10px;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+}
+
+.servvi {
+    font-size: 25px;
+    background-color: transparent;
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    padding-right: 10%;
+    padding-top: 50px;
+}
+
+.servvi p {
+    font-size: 30px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.serv {
+
+    background: url(pic7.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(68, 25, 102);
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    padding-left: 6%;
+    height: 100vh;
+
+}
+
+
+.servi {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50vh;
+    padding: 50px;
+}
+
+.ser1,
+.ser2,
+.ser3 {
+    display: block;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ser1 p {
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ser2 p {
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ser3 p {
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.serlogo {
+    font-size: 50px;
+    color: rgb(112, 38, 172);
+    border-color: #f05d5d;
+    padding-bottom: 10%;
+    display: flex;
+    align-items: center;
+    padding-left: 25%;
+    background-color: transparent;
+}
+
+
+.downlogo {
+    display: grid;
+    background-color: rgb(184, 77, 77);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 30vh;
+}
+
+.downlogo1,
+.downlogo2,
+.downlogo3,
+.downlogo4,
+.downlogo5 {
+    display: flex;
+    padding: 50%;
+    justify-content: center;
+    padding: 30%;
+    color: rgb(95, 29, 29);
+    font-size: 50px;
+}
+
+.dlit {
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    background-color: transparent;
+    padding-left: 3px;
+}
+
+.contact {
+    text-align: center;
+    background: url(pic2.png);
+    background-color: rgb(245, 245, 245);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 120vh;
+
+}
+
+.contact-title {
+    position: relative;
+    color: #1a1818;
+    top: 150px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.contact-title h1 {
+    font-size: 52px;
+    line-height: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.contact-title h3 {
+    font-size: 30px;
+    line-height: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form {
+    margin: 200px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.form-control {
+    width: 700px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #f7f8f1;
+    color: #dfd3d3;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    height: 55px;
+
+}
+
+form .submit {
+    background-color: #cc2f2f;
+    border-color: transparent;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: #c96a6a;
+    cursor: pointer;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(184, 77, 77);
+    height: 200px;
+}
+
+.lmp {
+    font-size: 30px;
+    color: white;
+    border-color: #f05d5d;
+    padding-bottom: 15%;
+    display: flex;
+    align-items: center;
+    padding-left: 45%;
+    background-color: transparent;
+}
+
+h5 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+
+}
+
+.social {
+    height: 70px;
+    margin: 0;
+}
+
+.social-copy p {
+    color: white;
+
+
+
+}
+
+.social .social-icon i {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 20px;
+
+}
+
+.hot {
+    background-color: transparent;
+    background-size: auto;
+    display: flex;
+    color: rgb(184, 77, 77);
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.hot h3 {
+    color: rgb(224, 224, 224);
+}
